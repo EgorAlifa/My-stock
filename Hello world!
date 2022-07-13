@@ -1,0 +1,6 @@
+class Egor{
+  publuc static void main(Strong[] args){
+    System.out.println("Hello world");
+    }
+}
+  
