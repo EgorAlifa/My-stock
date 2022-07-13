@@ -1,5 +1,5 @@
 class Egor{
-  publuc static void main(Strong[] args){
+  publuc static void main(String[] args){
     System.out.println("Hello world");
     }
 }
