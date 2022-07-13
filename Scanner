@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Egor{
   public static void main(String[] args){
-    Scanner sc = new scanner();
+    Scanner sc = new Scanner();
     int a = sc.nextInt();
     int b = sc.nextInt();
     System.out.println(a*b);
