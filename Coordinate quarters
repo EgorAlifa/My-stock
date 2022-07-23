@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    double x1 = nextDouble();
+    double y1 = nextDouble();
+    double x2 = nextDouble();
+    double y2 = nextDouble();
+    if ((x1>0 & y1>0) && (x2>0 & y2>0)){
+      System.out.print("Yes");
+    }
+    else if ((x1<0 & y1>0) && (x2<0 & y2>0)){
+      System.out.print("Yes");
+    }
+    else if ((x1<0 & y1<0) && (x2<0 & y2<0)){
+      System.out.print("Yes");
+    }
+    else if ((x1>0 & y1<0) && (x2>0 & y2<0)){
+      System.out.print("Yes");
+    }
+    else{
+      System.out.print("No");
+     }
+    }
+  }
