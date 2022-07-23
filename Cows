@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    if (n==1 || (n==21)|| (n==31)|| (n==41)|| (n==51)|| (n==61)|| (n==71)|| (n==81)|| (n==91)){
+            System.out.print(n + " " + "корова");
+        }
+        else if (n>=2 && n<5 || (n>=22 & n<=24)|| (n>=32 & n<=34)|| (n>=42 & n<=44)|| (n>=52 & n<=54)|| (n>=62 & n<=64)|| (n>=72 & n<=74)|| (n>=82 & n<=84)|| (n>=92 & n<=94)){
+            System.out.print(n + " " +"коровы");
+        }
+        else {
+            System.out.print(n + " " +"коров");
+        }
+    }
+}
