@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int c = sc.nextInt();
+    if ( a>b && a>c && b>c){
+        System.out.print (c  + " " + b  + " "+ a );
+        }
+        else if (b>a && b>c && a>c){
+            System.out.print(c + " " + a + " " + b);
+        }
+        else if (c>a && c>b && b>a){
+            System.out.print(a + " " + b + " " + c);
+        }
+        else if (b>c && c>a && b>a){
+            System.out.print(a + " " + c + " " + b);
+        }
+        else if (c>b && c>a && a>b){
+            System.out.print(b + " " + a + " " + c);
+        }
+        else if (a>c && a>b && c>b){
+            System.out.print(b + " " + c + " " + a);
+        }
+    }
+}
