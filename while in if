@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int s = sc.nextInt();
+    if (n<=s){
+      while (n<=s){
+        System.out.println(n);
+        n++;
+       }
+      }
+     else if (n>=s){
+      while (n>=s){
+        System.out.println(n);
+          n--;
+         }
+        }
+     }
+   }
