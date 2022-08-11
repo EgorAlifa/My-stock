@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int sum = 0;
+    while (n!=0){
+      int p = n;
+      if (n>0){
+        sum+=p+n;
+       }
+      n = sc.nextInt();
+     }
+     System.out.print(sum/2);
+   }
+ }
