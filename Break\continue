@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+  Scanner sc = new Scanner(System.in);
+  int s = 0; 
+  for (int i = sc.nextInt();sc.hasNext();i=sc.nextInt()){
+    if (i%7==0){
+      break;
+     }
+    if ((i%10==7) || (i%100==7) || (i%1000==7)){
+      s+=i;
+      continue;
+      }
+    }
+   System.out.print(s);
+   }
+}
+  
