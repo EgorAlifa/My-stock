@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    String stop = "СТОП";
+    String cube = "Куб";
+    int k = 0;
+    for (String i = sc.nextLine();sc.hasNext();i = sc.nextLine()){
+      if (i.equals(stop)){
+        break;
+      }
+      if (i.equals(cube)){
+        k=1;
+        continue;
+       }
+     }
+    if (k==1){
+      System.out.print("YES");
+      }
+    else {
+      System.out.print("NO");
+     }
+    }
+  }
