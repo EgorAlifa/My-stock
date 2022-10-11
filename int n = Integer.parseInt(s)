@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    String n = sc.nextLine();
+    int s;
+    int x = 0;
+    int z = 1;
+    int k = 0;
+    while (!n.equals("СТОП")){
+      s=Integer.parseInt(n);
+      n=sc.nextLine();
+      if (s!=0){
+       z = s*z;
+       k++;
+       }
+      }
+      {
+       {
+       if (k<=1){
+        System.out.print("Не найдено");
+        }
+       else {
+        System.out.print(z);
+        }
+       }
+     }
+    }
+  }
+       
+    
