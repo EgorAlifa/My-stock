@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner (System.in);
+    int k=0;
+    int s=0;
+    for (String  n = sc.nextLine();!n.equals("СТОП");n = sc.nextLine()){
+      k++;
+      if (n.equals("ээээ") || n.equals("потом")){
+        k--;
+       }
+       if (n.equals("Куб")){
+        s=k;
+        break;
+       }
+      }
+      if (s>0){
+        System.out.print(k);
+      }
+      else {
+        System.out.print("NO");
+      }
+   }
+}
+        
+        
