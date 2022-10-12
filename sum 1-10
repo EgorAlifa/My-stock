@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class Egor{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int s = sc.nextInt();
+    int p = 0;
+    for (int i = 0; i<=s;i++){
+      p+=i;
+     }
+     System.out.print(p);
+    }
+ }
+  
